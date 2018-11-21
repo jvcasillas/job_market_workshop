@@ -259,6 +259,17 @@ would you work with this?
 - Do you have plans to apply for any major grants? If so, which ones?
 
 ---
+
+### Questions for the committee
+
+- What are some of the challenges that junior faculty face at your university?
+- What are you hoping this person will accomplish in their first six months and in their first year?
+- What do you like about working at X university?
+- How will you measure the success of the person in this position?  
+--
+(What do I have to do to get tenure)
+
+---
 layout: false
 class: title-slide-section-grey, middle
 background-image: url(https://i.pinimg.com/originals/2e/67/0a/2e670a0807e3ea7738b97749b6b85b70.jpg)
@@ -421,79 +432,6 @@ class: title-slide-final, middle
 
 ## You can access the slides here:  
 
-### **www.jvcasillas.com/job_market_workshop**
+### **www.jvcasillas.com/job_market_workshop/index.html**
 
 ### .RUgrey[email: joseph.casillas@rutgers.edu]
-
----
-
-# The interview
-
-### Questions for the committee
-
-- What are some of the challenges that junior faculty face at your university?
-- What are you hoping this person will accomplish in their first six months and in their first year?
-- What do you like about working at X university?
-- How will you measure the success of the person in this position?  
---
-(What do I have to do to get tenure)
-
----
-
-
-
-# The personal statement
-
----
-
-# The interview
-
----
-
-# The campus visit
-
----
-
-# Negotiating an offer
-
----
-
-# Moving
-
----
-
-# Being an ECR
-
-
----
-
-# More resources
-
----
-
-
----
-
-
-
-https://www.thecut.com/article/questions-to-ask-in-a-job-interview.html?utm_medium=s1&utm_campaign=thecut&utm_source=tw
-
-> The modern scientist develops code in the 
-> open, publishes data and code open source, 
-> posts preprints, subits to and reviews for 
-> traditional journals, but may also write 
-> blog posts and use social media... These 
-> activities can dramatically increase the 
-> profile of scientists, particularly junior 
-> scientists, if done well. 
-
-> Jeff Leek, PhD
-> How to be a modern scientist
-
-
-# TODO LIST
-
-- organize
-- get some tweets
-- get some memes/gifs
-- search for mountain/spear story
