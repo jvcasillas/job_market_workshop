@@ -1,0 +1,499 @@
+---
+title: "Job market workshop"
+subtitle: "The interview"
+author: "Joseph V. Casillas"
+date: "2018-11-21 (updated: `r Sys.Date()`)"
+output:
+  xaringan::moon_reader:
+    lib_dir: assets
+    css: ["hygge", "rutgers", "rutgers-fonts"]
+    nature:
+      beforeInit: ["https://www.jvcasillas.com/ru_xaringan/js/ru_xaringan.js", "https://platform.twitter.com/widgets.js"]
+      highlightStyle: github
+      highlightLines: true
+      countIncrementalSlides: false
+      ratio: "16:9"
+    includes:
+      in_header: "./assets/partials/header.html"
+---
+
+```{r setup, include=FALSE}
+options(htmltools.dir.version = FALSE)
+```
+
+class: title-slide-section-grey, middle, center
+
+# Academia </br>(a metaphor)
+
+---
+background-color: black
+background-image: url(https://i.gifer.com/hNE.gif)
+background-size: contain
+
+---
+background-color: black
+background-image: url(https://66.media.tumblr.com/3461cbce6673fa718ce8376b6577e46b/tumblr_paqmm7NNbD1u4gq67o1_540.gif)
+background-size: contain
+
+---
+
+# Big (sad) picture
+
+.Large[
+- There aren't a lot of jobs
+
+- The market is saturated
+
+- Hundreds (probably more) of qualified candidates
+
+- The odds are not in your favor
+
+- Sometimes the "best" candidates don't get offers
+]
+
+--
+
+.Large[
+- If your goal is getting a job (and it should be), maximize 
+your odds  
+**apply to everything**
+]
+
+---
+
+# What you'll need
+
+.Large[
+- .blue[Cover letter/personal statement]
+- .blue[CV]
+- .blue[Letters of recommendation]
+- Teaching statement
+- Research statement
+- Diversity statement
+- Sample syllabi
+- Writing examples (publications, term papers)
+- Website
+]
+
+---
+
+# A basic timeline
+
+</br></br></br>
+
+```{r, 'time-line', echo=F, fig.width=14, fig.retina=2, eval=T}
+library(timevis)
+
+data <- data.frame(
+  id      = 1:7,
+  content = c("1st wave of jobs posted", 
+              "Application deadlines", 
+              "Interviews",
+              "MLA, LSA", 
+              "Campus visits", 
+              "Offers", 
+              "Late posts"),
+  start   = c("2018-09-01", # Job posts start
+              "2018-11-15", # !st wave of deadlines
+              "2018-11-25", # interviews start
+              "2019-01-10", # MLA, LSA
+              "2019-02-01", # campus visits
+              "2019-03-15", # offers start
+              "2019-02-01"),# late posts
+  end     = c("2018-11-15",
+              NA, 
+              "2019-02-01", # interviews typically done
+              NA,
+              "2019-04-15", # campus visits typically done
+              "2019-06-01", # offers typically done 
+              "2019-06-01")
+)
+
+timevis(data, loadDependencies=FALSE)
+```
+
+---
+
+# My experience
+
+- .Large[Atypical]
+
+--
+
+- .Large[Rushed]
+
+--
+
+- .Large[Low stakes]
+
+--
+
+- .Large[Stressful]
+
+---
+class: title-slide-section-grey, middle
+background-image: url(https://m.media-amazon.com/images/I/41rLAfXAwbL._SL500_.jpg)
+background-size: contain
+background-position: 100% 50%
+
+# .white[Your bible]
+
+---
+class: title-slide-section-grey, middle
+background-image: url(https://sayingimages.com/wp-content/uploads/tell-me-aboit-yourself-job-interview-meme.jpg)
+background-size: 600px
+background-position: 95% 50%
+
+# The interview
+
+---
+layout: true
+
+# The interview
+
+---
+
+## The standard advice
+
+- .large[Prepare for 15-20 questions (you'll probably get 5-10)]
+
+--
+
+- .large[Write 1-2 minute outlines of responses]--
+
+- .large[Practice until they are second nature (this takes a lot of 
+time, English and Spanish)]
+
+--
+
+- .large[Give the interviewers the opportunity to respond]
+
+--
+
+- .large[You don't have to show everything you know]
+
+--
+
+- .large[Show that you know what is needed]
+
+--
+
+- .large[Know your core theoretical stances (research, teaching)]
+
+--
+
+- .large[Know your audience (the campus, department, job)]
+
+---
+
+## How to prepare
+
+### Make a departmental cheatsheet with:
+
+.large[
+- faculty names
+
+- research interests
+
+- recent publications
+
+- recent history of department 
+
+- areas dept. is known for
+
+- new initiatives developing
+]
+
+---
+
+### Practice question categories
+
+.large[
+1. *Dissertation*
+
+2. *Short/long term publishing plans*
+
+3. My place in the field
+
+4. *Courses I can teach*
+
+5. Teaching philosophy
+
+6. Interest in program building
+
+7. My understanding of the financial and organizational context of the department
+]
+
+.footnote[From *The professor is in* (blog), I think]
+
+---
+
+### Example questions
+
+- How is your dissertation different from other work in your field?
+- How does your diss. intervene in the field of X?
+- Who are the biggest scholarly influences on your work?
+- What are your publication plans arising from the diss.?
+- Have you spoken w/ a publisher about your book? Where do you stand in negotiations?
+- What is your research program for the next five years?
+- What are your immediate and longer term publication plans?
+- How would you teach a large intro class in ling/lit? How would you teach our intro course? Which text would you use? What kinds of assignments would you use?
+- How would you teach our core theory seminar? Who would you have them read?
+- How would you teach our methods course?
+- Name two specialty courses you would teach, one undergraduate and one graduate?
+- What inspires your teaching?
+- How do you see your work fitting into our department?
+- What do you think the most important intellectual debate is in your/our field?
+- Can you envision any collaborations with faculty currently in the department?
+- How would you incorporate undergraduates into your research?
+
+---
+
+### Example questions (cont.)
+
+- We are hoping to build a strength in X. How would participate in that effort?
+- We don’t have a lot of funding for the kind of equipment/travel that you require for your research. How
+would you work with this?
+- Our campus is very student focused. You come from and R1. How do you see yourself fitting in?
+- Our campus has high expectations for publication for tenure. How do you see yourself handling the expectations?
+- Do you have plans to apply for any major grants? If so, which ones?
+
+---
+layout: false
+class: title-slide-section-grey, middle
+background-image: url(https://i.pinimg.com/originals/2e/67/0a/2e670a0807e3ea7738b97749b6b85b70.jpg)
+background-size: 500px
+background-position: 95% 50%
+
+# The not so standard stuff...
+
+---
+class: center, bottom
+background-image: url(https://media1.tenor.com/images/fdd73fc4651ffe15c7f052cc3a00ee1c/tenor.gif?itemid=5293170)
+background-size: contain
+
+# Bring positive energy
+
+???
+
+- Show excitement for job and for field
+- Be confident and authoritative (without being a dick)
+- Smile
+
+---
+class: middle
+
+# .large[It's YOUR interview]
+
+--
+
+## .center[.RUgrey[control the narrative </br>(be subtle)]]
+
+--
+
+## .right[play to your strengths...]
+
+???
+
+- ...have 3 or 4 "go to" areas, weave them in whenever you get a chance. Why?
+- You can't trust them to bring up your best qualities, make a point to hit the topics you want to talk about
+- Set up your narrative in a way that lets you drop little tangents about other research or work "That you can elaborate on if theres interest or time"
+
+---
+class: middle
+
+# Respond to every question with 2 answers...
+
+--
+
+.Large[...the one they wanted]
+
+--
+
+.Large[...then another one you want them to know]
+
+---
+class: title-slide-section-grey 
+
+# **Them**: Tell us about your dissertation.
+
+--
+
+# .blue[You]: OK!!! My dissertation blah blah blah...  
+
+--
+
+# .blue[You]: As you can see, I'm interested in blah blah...  
+
+--
+
+# .blue[You]: Beyond my thesis, I also research bilingual language modes, which appeared in my 2015 paper in Journal of Phonetics, that I would be happy to talk more about </br>**if theres time and interest**
+
+---
+class: title-slide-section-grey
+
+# **Them**: Tell us about your research interests.
+
+--
+
+# .blue[You]: My research is focused on BLAH BLAH BLAH (and you don't stop)
+
+--
+
+# .blue[You]: I also am interested in machine learning, which I've worked on in another paper...
+
+--
+
+.center[
+## You tell them about what they want to know and </br>**SOMETHING ELSE YOU WANT THEM TO KNOW**
+]
+
+---
+class: center, middle
+
+# .grey["]I'd be happy to elaborate if there's time....grey["] 
+
+## .grey[(].blue[write this on a post it].grey[)]
+
+???
+
+La idea is that al final They think that the skype Was too short To get to know all your shit so we they are just going to have to invite you for a campus interview so they can learn about the rest
+
+---
+class: middle
+background-color: darkgrey
+background-image: url(https://media1.tenor.com/images/82aaccd513f44548920414ce9d24a558/tenor.gif?itemid=5168991)
+background-size: 500px
+background-position: 95% 50%
+
+# Don't be nervous 
+
+# `r emojifont::emoji("angry")`
+
+---
+class: middle
+background-color: darkgrey
+background-image: url(https://media1.tenor.com/images/82aaccd513f44548920414ce9d24a558/tenor.gif?itemid=5168991)
+background-size: 500px
+background-position: 95% 50%
+
+# Embrace the nerves
+
+--
+
+- You're going to be nervous
+- Accept it, plan on it
+- Know your signs (weird voice, talking fast)
+- The committee expects you to be nervous
+- The more you practice, the better
+
+--
+
+## Record yourself!
+
+---
+background-image: url(https://raw.githubusercontent.com/jvcasillas/media/master/general/gifs/throw_into_pool.gif)
+background-size: contain
+
+---
+background-image: url(https://raw.githubusercontent.com/jvcasillas/media/master/general/memes/sucking2.png)
+background-size: contain
+
+---
+
+# Final thoughts
+
+.Large[
+- People are weird
+
+- You really never know
+
+- The odds are against you
+
+- If you make it to the top (and get a spear), that doesn't mean you 
+are done (yet)
+]
+
+---
+class: title-slide-final, middle
+
+# .white[That's it (for now)]
+
+## You can access the slides here:  
+
+### **www.jvcasillas.com/job_market_workshop**
+
+### .RUgrey[email: joseph.casillas@rutgers.edu]
+
+---
+
+# The interview
+
+### Questions for the committee
+
+- What are some of the challenges that junior faculty face at your university?
+- What are you hoping this person will accomplish in their first six months and in their first year?
+- What do you like about working at X university?
+- How will you measure the success of the person in this position?  
+--
+(What do I have to do to get tenure)
+
+---
+
+
+
+# The personal statement
+
+---
+
+# The interview
+
+---
+
+# The campus visit
+
+---
+
+# Negotiating an offer
+
+---
+
+# Moving
+
+---
+
+# Being an ECR
+
+
+---
+
+# More resources
+
+---
+
+
+---
+
+
+
+https://www.thecut.com/article/questions-to-ask-in-a-job-interview.html?utm_medium=s1&utm_campaign=thecut&utm_source=tw
+
+> The modern scientist develops code in the 
+> open, publishes data and code open source, 
+> posts preprints, subits to and reviews for 
+> traditional journals, but may also write 
+> blog posts and use social media... These 
+> activities can dramatically increase the 
+> profile of scientists, particularly junior 
+> scientists, if done well. 
+
+> Jeff Leek, PhD
+> How to be a modern scientist
+
+
+# TODO LIST
+
+- organize
+- get some tweets
+- get some memes/gifs
+- search for mountain/spear story
