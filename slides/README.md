@@ -1,0 +1,9 @@
+
+# Academic job market workshops
+
+  - [Job
+    documents](https://www.jvcasillas.com/job_market_workshop/slides/job_documents/index.html)
+  - [Job
+    interviews](https://www.jvcasillas.com/job_market_workshop/slides/interview/index.html)
+  - [Campus
+    visits](https://www.jvcasillas.com/job_market_workshop/slides/campus_visits/index.html)
